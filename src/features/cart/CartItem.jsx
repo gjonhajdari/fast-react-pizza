@@ -1,8 +1,10 @@
 import { useSelector } from "react-redux";
+
 import { formatCurrency } from "../../utils/helpers";
-import DeleteItem from "./DeleteItem";
-import UpdateItemQuantity from "./UpdateItemQuantity";
 import { getCurrentQuantityById } from "./cartSlice";
+
+import UpdateItemQuantity from "./UpdateItemQuantity";
+import DeleteItem from "./DeleteItem";
 
 function CartItem({ item }) {
   const { pizzaId, name, quantity, totalPrice } = item;

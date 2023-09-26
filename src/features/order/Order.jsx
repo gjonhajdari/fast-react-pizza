@@ -44,7 +44,7 @@ function Order() {
       <div className="flex flex-wrap items-center justify-between gap-2 rounded bg-stone-200 px-6 py-5">
         <p className="font-medium">
           {deliveryIn >= 0
-            ? `Only ${calcMinutesLeft(estimatedDelivery)} minutes left 😃`
+            ? `Only ${calcMinutesLeft(estimatedDelivery)} minutes left 🏃🏻‍♂️`
             : "Order should have arrived"}
         </p>
         <p className="text-xs text-stone-500">
