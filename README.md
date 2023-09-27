@@ -1,6 +1,6 @@
 # Fast React Pizza Web App
 
-A simple web app that allows users to place new pizza orders to their home. Built to highlight `Redux Toolkit` as well as modern routing with `RouterProvider`.
+Simple web app that allows users to place new pizza orders to their home. Built to highlight `Redux Toolkit` as well as modern routing with `RouterProvider`.
 
 Project based on [The Ultimate React Course 2023](https://www.udemy.com/course/the-ultimate-react-course/) by Jonas Schmedtmann.
 
