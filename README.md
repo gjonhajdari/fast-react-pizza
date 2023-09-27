@@ -1,8 +1,40 @@
-# React + Vite
+# Fast React Pizza Web App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple web app that allows users to place new pizza orders to their home. Built to highlight `Redux Toolkit` as well as modern routing with `RouterProvider`.
 
-Currently, two official plugins are available:
+Project based on [The Ultimate React Course 2023](https://www.udemy.com/course/the-ultimate-react-course/) by Jonas Schmedtmann.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Getting started
+
+Run `npm install` or `bun install` to install all the required dependencies. All the backend logic is handled externally and provided by [their API](https://react-fast-pizza-api.onrender.com/api/menu).
+
+```bash
+$ npm install
+$ npm run dev
+```
+
+## Screenshots
+
+Home page
+
+![](./screenshots/home.jpeg)
+<br><br>
+
+Menu page
+
+![](./screenshots/menu.jpeg)
+<br><br>
+
+Cart page
+
+![](./screenshots/cart.jpeg)
+<br><br>
+
+Place order page
+
+![](./screenshots/place-order.jpeg)
+<br><br>
+
+Order overview page
+
+![](./screenshots/order-overview.jpeg)
